@@ -23,7 +23,7 @@ public class DeptController {
     }
 
     @RequestMapping(value = "/dept/list", method = RequestMethod.GET)
-    public List<Dept> list(){
+    public List<Dept> list() {
         return service.list();
     }
 }
