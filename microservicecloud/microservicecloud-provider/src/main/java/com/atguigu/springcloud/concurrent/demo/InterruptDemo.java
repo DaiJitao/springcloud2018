@@ -22,8 +22,6 @@ public class InterruptDemo extends Thread {
         demo1.start();
         demo2.start();
 
-
-
         demo1.interrupt();
 
     }
